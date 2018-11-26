@@ -1,0 +1,53 @@
+/*
+Default theme for MrMrsTV
+Child themes should be used to create subversion / day based themes such as Quiz nights.
+*/
+
+@import "config.less";
+@import "flexbox.less";
+
+@brand-primary: blue;
+@brand-secondary:purple;
+@brand-dark:#272b2e;
+
+body {
+	margin:0;
+	padding:0;
+  font-size:14px;
+  background-color:@brand-dark;
+}
+
+
+
+.row {
+  &.video-wrapper {
+    min-height:110px;
+    #video_header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+    }
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+
+      .nav-links-menu {
+        padding-left:0;
+        display: flex;
+        flex-wrap: nowrap;
+
+        .nav-links {
+          list-style:none;
+
+
+          .nav-link {
+            text-decoration:none;
+
+          }
+        }
+      }
+    }
+  }
+}
