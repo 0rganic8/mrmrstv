@@ -1,0 +1,20 @@
+/*
+
+Default theme for MrMrsTV
+
+Child themes should be used to create subversion / day based themes such as Quiz nights.
+
+*/
+body {
+	margin:0;
+	padding:0;
+}
+
+
+#video_header {
+
+}
+
+.nav {
+    
+}
